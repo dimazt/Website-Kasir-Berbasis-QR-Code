@@ -1,0 +1,808 @@
+[19-Jun-2022 22:48:23 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/advk5287/public_html/dimas.advokesmapolnes.com/config.php on line 7
+[19-Jun-2022 22:48:23 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jun-2022 22:48:23 Asia/Singapore] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/dashboard.php:16
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/dashboard.php(16): mysqli_query()
+#1 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(267): include('/home/advk5287/...')
+#2 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/dashboard.php on line 16
+[19-Jun-2022 22:54:49 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'advk5287_bem'@'localhost' to database 'advk5287_kasirdb' in /home/advk5287/public_html/dimas.advokesmapolnes.com/config.php on line 7
+[19-Jun-2022 22:54:49 Asia/Singapore] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php:13
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 13
+[19-Jun-2022 22:55:25 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[19-Jun-2022 22:56:46 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[19-Jun-2022 22:56:49 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[19-Jun-2022 22:59:06 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jun-2022 23:04:56 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[19-Jun-2022 23:05:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[19-Jun-2022 23:05:21 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[19-Jun-2022 23:27:48 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jun-2022 23:28:25 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[19-Jun-2022 23:28:34 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[19-Jun-2022 23:28:52 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[19-Jun-2022 23:30:01 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[19-Jun-2022 23:31:05 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[19-Jun-2022 23:31:19 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jun-2022 23:31:20 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[19-Jun-2022 23:31:33 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[19-Jun-2022 23:31:33 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 65
+[19-Jun-2022 23:31:33 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 81
+[19-Jun-2022 23:32:09 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[19-Jun-2022 23:32:14 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:32:24 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:32:57 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[19-Jun-2022 23:33:03 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:34:49 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:35:18 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:35:30 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[19-Jun-2022 23:35:34 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[19-Jun-2022 23:35:34 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[19-Jun-2022 23:35:37 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[19-Jun-2022 23:35:37 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[19-Jun-2022 23:35:43 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[19-Jun-2022 23:35:43 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[19-Jun-2022 23:35:52 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:36:04 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:36:09 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:36:15 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[19-Jun-2022 23:36:22 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:36:33 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:36:36 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[19-Jun-2022 23:36:39 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:36:45 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[19-Jun-2022 23:36:49 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:38:04 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:39:13 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jun-2022 23:42:55 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[19-Jun-2022 23:42:57 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[19-Jun-2022 23:42:59 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[19-Jun-2022 23:43:07 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:43:31 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 65
+[19-Jun-2022 23:44:22 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:44:49 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:51:44 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:55:09 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:55:21 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:55:24 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:55:41 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:57:02 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[19-Jun-2022 23:57:13 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 00:00:31 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 00:01:49 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 00:07:59 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 00:08:02 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 00:08:02 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 50
+[20-Jun-2022 00:08:02 Asia/Singapore] PHP Warning:  foreach() argument must be of type array|object, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 50
+[20-Jun-2022 00:08:11 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 00:18:45 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 00:23:01 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 00:23:01 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 01:25:45 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 01:25:46 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 09:50:02 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 09:50:14 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 09:51:42 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 09:51:46 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 09:56:44 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 09:57:10 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 09:57:52 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 10:11:46 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 10:11:48 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 10:18:18 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 10:30:33 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 10:30:44 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[20-Jun-2022 10:30:57 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[20-Jun-2022 10:31:16 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 10:31:22 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[20-Jun-2022 10:31:33 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[20-Jun-2022 10:31:42 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[20-Jun-2022 10:31:42 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 10:31:42 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 66
+[20-Jun-2022 10:34:48 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[20-Jun-2022 10:34:57 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[20-Jun-2022 10:35:04 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 10:35:04 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 66
+[20-Jun-2022 10:35:08 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 10:44:20 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 10:44:23 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 10:44:26 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 10:44:30 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 10:44:30 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 50
+[20-Jun-2022 10:44:30 Asia/Singapore] PHP Warning:  foreach() argument must be of type array|object, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 50
+[20-Jun-2022 10:45:25 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 10:47:22 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 10:49:08 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 10:50:08 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 10:55:47 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 10:55:48 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 10:59:07 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 10:59:57 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 11:01:05 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 11:02:24 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 11:03:22 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 11:03:48 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 11:04:32 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 11:04:42 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 11:05:40 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[20-Jun-2022 11:05:42 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[20-Jun-2022 11:05:55 Asia/Singapore] PHP Warning:  Undefined variable $bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 32
+[20-Jun-2022 11:06:51 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[20-Jun-2022 11:15:32 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 41
+[20-Jun-2022 11:24:45 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 41
+[20-Jun-2022 11:25:13 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[20-Jun-2022 11:27:12 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 11:27:17 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 11:27:20 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 11:27:24 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:27:24 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:28:08 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:28:08 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:29:12 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:29:12 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:29:28 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[20-Jun-2022 11:29:33 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[20-Jun-2022 11:29:36 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:29:36 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:29:42 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 11:29:45 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 11:29:46 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 11:29:49 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:29:49 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:29:49 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 11:29:51 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 11:29:54 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:29:54 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 11:39:35 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[20-Jun-2022 11:41:16 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[20-Jun-2022 11:48:12 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 11:50:17 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 12:57:41 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 12:57:44 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 12:58:04 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 139
+[20-Jun-2022 13:06:19 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 179
+[20-Jun-2022 13:06:29 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 13:06:29 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 13:06:41 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 58
+[20-Jun-2022 13:07:34 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 58
+[20-Jun-2022 13:07:37 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 58
+[20-Jun-2022 13:07:40 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 58
+[20-Jun-2022 13:07:42 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 41
+[20-Jun-2022 13:07:55 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 58
+[20-Jun-2022 13:48:37 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 58
+[20-Jun-2022 13:48:50 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 58
+[20-Jun-2022 14:01:48 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 58
+[20-Jun-2022 14:11:47 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:11:51 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[20-Jun-2022 14:11:51 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[20-Jun-2022 14:11:57 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:13:08 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:13:11 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:13:13 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:13:19 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:13:24 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:13:28 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:13:30 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[20-Jun-2022 14:14:04 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[20-Jun-2022 14:14:04 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[20-Jun-2022 14:14:07 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:14:09 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:14:12 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:14:47 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:14:50 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:14:52 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:14:54 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:14:58 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[20-Jun-2022 14:15:02 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:15:12 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:15:34 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:15:35 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:15:38 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:16:45 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 14:18:03 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[20-Jun-2022 14:18:14 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[20-Jun-2022 14:18:14 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 26
+[20-Jun-2022 14:18:14 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 30
+[20-Jun-2022 14:18:14 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 64
+[20-Jun-2022 14:18:14 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 65
+[20-Jun-2022 14:18:14 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 66
+[20-Jun-2022 14:43:27 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 14:43:27 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 18:34:35 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 18:34:35 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 18:34:37 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 18:34:40 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 19:13:04 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 19:13:08 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[20-Jun-2022 20:00:53 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[20-Jun-2022 20:00:53 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[20-Jun-2022 20:01:06 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 20:01:06 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[20-Jun-2022 20:01:09 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[20-Jun-2022 20:01:24 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[20-Jun-2022 20:01:34 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[20-Jun-2022 20:03:02 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[20-Jun-2022 20:38:58 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 22:11:06 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[20-Jun-2022 22:11:06 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jun-2022 00:56:10 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jun-2022 00:56:17 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[21-Jun-2022 00:56:30 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jun-2022 00:56:52 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[21-Jun-2022 00:56:52 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[21-Jun-2022 00:56:53 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jun-2022 00:56:59 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[21-Jun-2022 00:57:00 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[21-Jun-2022 00:57:08 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[21-Jun-2022 00:57:08 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[21-Jun-2022 02:44:37 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jun-2022 12:07:01 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jun-2022 17:26:58 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jun-2022 17:27:12 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[21-Jun-2022 17:27:26 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[21-Jun-2022 17:27:26 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[21-Jun-2022 17:27:37 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[22-Jun-2022 02:47:51 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jun-2022 02:47:51 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jun-2022 02:47:52 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jun-2022 13:09:18 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jun-2022 13:09:18 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jun-2022 19:33:07 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jun-2022 19:33:10 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[22-Jun-2022 19:33:16 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[22-Jun-2022 19:33:16 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[22-Jun-2022 19:33:18 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[22-Jun-2022 19:33:19 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 04:30:26 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 07:46:37 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 09:55:23 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 09:55:45 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[23-Jun-2022 11:18:32 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 11:18:36 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[23-Jun-2022 11:19:33 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 11:19:33 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 11:19:38 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 11:27:25 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 11:28:43 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 11:37:23 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[23-Jun-2022 11:37:43 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[23-Jun-2022 11:38:11 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 11:38:24 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[23-Jun-2022 11:38:46 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[23-Jun-2022 11:39:04 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[23-Jun-2022 11:40:05 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[23-Jun-2022 11:40:54 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 11:41:07 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 11:41:10 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[23-Jun-2022 11:41:13 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 11:41:13 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 11:41:17 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[23-Jun-2022 11:41:17 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[23-Jun-2022 11:41:21 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 11:41:32 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[23-Jun-2022 11:51:03 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 11:51:11 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[23-Jun-2022 11:51:22 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 11:51:22 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 11:51:25 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 11:51:34 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[23-Jun-2022 12:00:34 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 12:00:41 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[23-Jun-2022 12:00:44 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 12:00:44 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:00:45 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:06:46 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[23-Jun-2022 12:06:49 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 12:06:49 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:06:50 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 41
+[23-Jun-2022 12:06:53 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 12:06:53 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:06:56 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 51
+[23-Jun-2022 12:06:56 Asia/Singapore] PHP Warning:  foreach() argument must be of type array|object, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 51
+[23-Jun-2022 12:07:48 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 12:07:52 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[23-Jun-2022 12:09:04 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 12:09:04 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:09:06 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:09:16 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[23-Jun-2022 12:10:06 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[23-Jun-2022 12:10:10 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[23-Jun-2022 12:10:10 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:10:13 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:11:03 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:11:04 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 41
+[23-Jun-2022 12:11:07 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:11:11 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[23-Jun-2022 12:12:04 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[23-Jun-2022 12:12:04 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[23-Jun-2022 12:12:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[23-Jun-2022 12:12:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[23-Jun-2022 12:12:18 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[23-Jun-2022 12:31:24 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[23-Jun-2022 12:43:13 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[23-Jun-2022 12:43:14 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[23-Jun-2022 12:43:20 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 35
+[23-Jun-2022 12:43:44 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[23-Jun-2022 23:25:37 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 23:25:38 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jun-2022 23:25:39 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[24-Jun-2022 13:23:40 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[24-Jun-2022 13:23:43 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[24-Jun-2022 13:23:45 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[24-Jun-2022 13:23:45 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[24-Jun-2022 13:23:47 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[24-Jun-2022 13:24:05 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[24-Jun-2022 13:25:21 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[24-Jun-2022 13:25:25 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[24-Jun-2022 13:29:03 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php on line 108
+[24-Jun-2022 13:29:13 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[24-Jun-2022 13:29:18 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[24-Jun-2022 13:29:20 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[24-Jun-2022 13:29:20 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php on line 108
+[24-Jun-2022 13:30:43 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php:108
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php(108): number_format()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php on line 108
+[24-Jun-2022 13:30:51 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[24-Jun-2022 13:30:51 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php:108
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php(108): number_format()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php on line 108
+[24-Jun-2022 13:31:13 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[24-Jun-2022 13:31:15 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[24-Jun-2022 13:31:16 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[24-Jun-2022 13:31:47 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[24-Jun-2022 13:31:49 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[24-Jun-2022 13:31:51 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[24-Jun-2022 13:38:03 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[24-Jun-2022 13:38:08 Asia/Singapore] PHP Warning:  Undefined array key "qty" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_update.php on line 15
+[24-Jun-2022 13:38:12 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[24-Jun-2022 13:38:14 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[25-Jun-2022 11:34:30 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[25-Jun-2022 11:34:33 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[26-Jun-2022 17:58:33 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[26-Jun-2022 17:58:53 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[28-Jun-2022 04:56:32 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[28-Jun-2022 09:47:11 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[28-Jun-2022 13:15:51 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[28-Jun-2022 13:15:57 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[28-Jun-2022 13:16:01 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[28-Jun-2022 13:16:01 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[28-Jun-2022 13:16:08 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[28-Jun-2022 13:17:54 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[28-Jun-2022 13:17:59 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[28-Jun-2022 13:18:16 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[28-Jun-2022 13:18:21 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[28-Jun-2022 13:18:21 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[28-Jun-2022 13:18:21 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[28-Jun-2022 13:19:39 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[28-Jun-2022 13:20:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[28-Jun-2022 13:21:59 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[28-Jun-2022 13:22:03 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[28-Jun-2022 13:22:12 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[28-Jun-2022 13:23:03 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[28-Jun-2022 13:23:03 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[28-Jun-2022 13:23:03 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[28-Jun-2022 17:33:12 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[28-Jun-2022 17:33:12 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[28-Jun-2022 17:33:12 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[28-Jun-2022 17:33:15 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[28-Jun-2022 17:33:19 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[28-Jun-2022 17:33:19 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[28-Jun-2022 17:33:25 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[28-Jun-2022 17:33:25 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[28-Jun-2022 17:33:51 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[28-Jun-2022 17:33:51 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[28-Jun-2022 20:49:37 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[28-Jun-2022 20:49:39 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[28-Jun-2022 20:49:41 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[28-Jun-2022 20:49:47 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[29-Jun-2022 01:25:57 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[29-Jun-2022 01:26:02 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[29-Jun-2022 03:55:25 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[29-Jun-2022 21:18:01 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[29-Jun-2022 21:18:13 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[29-Jun-2022 21:18:55 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[29-Jun-2022 21:18:55 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[29-Jun-2022 21:19:08 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[29-Jun-2022 22:51:23 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[29-Jun-2022 22:51:27 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[02-Jul-2022 02:02:05 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[02-Jul-2022 09:56:43 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[02-Jul-2022 12:01:42 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[02-Jul-2022 12:47:45 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[02-Jul-2022 22:10:19 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[03-Jul-2022 00:30:43 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[03-Jul-2022 09:33:54 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[03-Jul-2022 19:13:52 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[05-Jul-2022 08:06:41 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[05-Jul-2022 17:15:46 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[06-Jul-2022 03:14:35 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[07-Jul-2022 04:30:37 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[07-Jul-2022 08:58:01 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[08-Jul-2022 08:16:35 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[08-Jul-2022 08:27:55 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[08-Jul-2022 15:28:29 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[08-Jul-2022 15:55:41 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[08-Jul-2022 15:55:48 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[09-Jul-2022 09:58:45 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[09-Jul-2022 15:15:10 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[09-Jul-2022 15:45:48 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[09-Jul-2022 16:01:54 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[10-Jul-2022 12:16:35 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[10-Jul-2022 22:03:53 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[10-Jul-2022 22:45:31 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[12-Jul-2022 01:06:27 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[12-Jul-2022 15:02:20 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[12-Jul-2022 21:35:30 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[12-Jul-2022 21:35:31 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[13-Jul-2022 02:08:43 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[13-Jul-2022 02:08:55 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[13-Jul-2022 02:09:14 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[13-Jul-2022 02:09:23 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[13-Jul-2022 02:44:18 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[13-Jul-2022 03:31:49 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[13-Jul-2022 07:57:39 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[13-Jul-2022 07:57:45 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[14-Jul-2022 17:27:39 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[14-Jul-2022 17:27:44 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[14-Jul-2022 23:46:15 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[14-Jul-2022 23:46:45 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[14-Jul-2022 23:47:14 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[14-Jul-2022 23:47:14 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[14-Jul-2022 23:47:17 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[14-Jul-2022 23:49:08 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[14-Jul-2022 23:49:42 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[14-Jul-2022 23:49:51 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[14-Jul-2022 23:53:55 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[14-Jul-2022 23:54:00 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[15-Jul-2022 00:10:57 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 60
+[15-Jul-2022 00:11:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[15-Jul-2022 00:11:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[15-Jul-2022 00:11:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[15-Jul-2022 00:11:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[15-Jul-2022 00:11:08 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[15-Jul-2022 00:11:08 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[15-Jul-2022 00:13:07 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[15-Jul-2022 00:14:09 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[15-Jul-2022 00:14:37 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[15-Jul-2022 00:15:59 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[15-Jul-2022 00:16:10 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[15-Jul-2022 00:16:13 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[15-Jul-2022 00:16:13 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[15-Jul-2022 00:16:18 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[15-Jul-2022 00:16:32 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[15-Jul-2022 00:18:58 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[15-Jul-2022 00:19:02 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[15-Jul-2022 00:19:05 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[15-Jul-2022 00:19:05 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[15-Jul-2022 00:19:07 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[15-Jul-2022 00:19:12 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[15-Jul-2022 00:25:18 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[15-Jul-2022 00:25:21 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[15-Jul-2022 00:25:24 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[15-Jul-2022 00:25:24 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[15-Jul-2022 00:25:27 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[15-Jul-2022 00:25:35 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[15-Jul-2022 00:38:07 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[15-Jul-2022 00:38:12 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[15-Jul-2022 00:40:17 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[15-Jul-2022 00:40:17 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 26
+[15-Jul-2022 00:40:17 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 30
+[15-Jul-2022 00:40:17 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 64
+[15-Jul-2022 00:40:17 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 65
+[15-Jul-2022 00:40:17 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 66
+[15-Jul-2022 00:40:20 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[15-Jul-2022 00:40:20 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 26
+[15-Jul-2022 00:40:20 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 30
+[15-Jul-2022 00:40:20 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 41
+[15-Jul-2022 00:40:22 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[15-Jul-2022 00:40:22 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 26
+[15-Jul-2022 00:40:22 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 30
+[15-Jul-2022 00:40:22 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 41
+[15-Jul-2022 00:40:23 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[15-Jul-2022 00:40:23 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 26
+[15-Jul-2022 00:40:23 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 30
+[15-Jul-2022 00:40:23 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 41
+[15-Jul-2022 00:40:36 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[15-Jul-2022 00:40:36 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 26
+[15-Jul-2022 00:40:36 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 30
+[15-Jul-2022 00:40:36 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 64
+[15-Jul-2022 00:40:36 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 65
+[15-Jul-2022 00:40:36 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 66
+[15-Jul-2022 00:41:30 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[15-Jul-2022 00:41:46 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[15-Jul-2022 00:41:58 Asia/Singapore] PHP Warning:  Undefined array key "search_barang" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 15
+[15-Jul-2022 09:49:08 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[15-Jul-2022 09:49:13 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[15-Jul-2022 22:14:14 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[16-Jul-2022 03:24:28 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[16-Jul-2022 04:58:08 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[16-Jul-2022 19:14:57 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[18-Jul-2022 21:11:35 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jul-2022 04:12:02 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jul-2022 09:38:24 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jul-2022 09:39:07 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[19-Jul-2022 09:39:15 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[19-Jul-2022 09:39:15 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[19-Jul-2022 09:40:48 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[19-Jul-2022 09:40:48 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 51
+[19-Jul-2022 09:40:48 Asia/Singapore] PHP Warning:  foreach() argument must be of type array|object, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 51
+[19-Jul-2022 09:40:48 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[19-Jul-2022 09:40:48 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php on line 108
+[19-Jul-2022 09:44:59 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[19-Jul-2022 09:44:59 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[19-Jul-2022 09:45:10 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[19-Jul-2022 09:45:10 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php on line 108
+[19-Jul-2022 09:45:36 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[19-Jul-2022 09:45:36 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[19-Jul-2022 09:47:03 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[19-Jul-2022 09:47:03 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php on line 108
+[19-Jul-2022 09:47:55 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_selesai.php on line 108
+[19-Jul-2022 09:49:47 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[19-Jul-2022 09:49:47 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 183
+[19-Jul-2022 09:52:07 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[19-Jul-2022 09:52:07 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 190
+[19-Jul-2022 09:52:19 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[19-Jul-2022 09:52:30 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/barang_add.php on line 8
+[19-Jul-2022 09:52:37 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[19-Jul-2022 09:52:37 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 190
+[19-Jul-2022 09:53:29 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[19-Jul-2022 09:53:29 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 190
+[19-Jul-2022 09:53:32 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 134
+[19-Jul-2022 09:53:37 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:25
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 25
+[19-Jul-2022 09:53:37 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:25
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 25
+[19-Jul-2022 09:53:44 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:25
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 25
+[19-Jul-2022 09:53:45 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:25
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 25
+[19-Jul-2022 09:53:48 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:25
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 25
+[19-Jul-2022 09:53:54 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:25
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 25
+[19-Jul-2022 09:54:00 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:25
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 25
+[19-Jul-2022 09:56:09 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:24
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 24
+[19-Jul-2022 09:56:09 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:24
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 24
+[19-Jul-2022 09:56:09 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:24
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 24
+[19-Jul-2022 09:56:10 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php:24
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php(253): include()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 24
+[19-Jul-2022 09:56:20 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[19-Jul-2022 09:56:23 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 133
+[19-Jul-2022 09:56:23 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[19-Jul-2022 09:56:24 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[19-Jul-2022 09:56:30 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[19-Jul-2022 09:56:43 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 67
+[19-Jul-2022 09:56:43 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[19-Jul-2022 09:57:03 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[19-Jul-2022 09:59:34 Asia/Singapore] PHP Parse error:  syntax error, unexpected identifier "transaksi_act" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 156
+[19-Jul-2022 09:59:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected identifier "transaksi_act" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 156
+[19-Jul-2022 09:59:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected identifier "transaksi_act" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 156
+[19-Jul-2022 09:59:37 Asia/Singapore] PHP Parse error:  syntax error, unexpected identifier "transaksi_act" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 156
+[19-Jul-2022 09:59:37 Asia/Singapore] PHP Parse error:  syntax error, unexpected identifier "transaksi_act" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 156
+[19-Jul-2022 09:59:41 Asia/Singapore] PHP Parse error:  syntax error, unexpected identifier "transaksi_act" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 156
+[19-Jul-2022 09:59:48 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[19-Jul-2022 09:59:49 Asia/Singapore] PHP Parse error:  syntax error, unexpected identifier "transaksi_act" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 156
+[19-Jul-2022 10:00:54 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[19-Jul-2022 10:00:57 Asia/Singapore] PHP Parse error:  syntax error, unexpected identifier "transaksi_act" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 156
+[19-Jul-2022 10:01:29 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[19-Jul-2022 10:01:32 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 133
+[19-Jul-2022 10:01:32 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[19-Jul-2022 10:01:36 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[19-Jul-2022 10:01:36 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 133
+[19-Jul-2022 10:01:36 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[19-Jul-2022 10:01:36 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 133
+[19-Jul-2022 10:01:36 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[19-Jul-2022 10:01:39 Asia/Singapore] PHP Warning:  Undefined array key "cart" in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[19-Jul-2022 10:01:39 Asia/Singapore] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php:93
+Stack trace:
+#0 /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php(93): array_column()
+#1 {main}
+  thrown in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 93
+[19-Jul-2022 10:01:41 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 133
+[19-Jul-2022 10:01:50 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[19-Jul-2022 10:03:08 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[19-Jul-2022 10:07:54 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 26
+[19-Jul-2022 10:07:54 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[19-Jul-2022 10:12:22 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[19-Jul-2022 10:14:25 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[19-Jul-2022 10:14:30 Asia/Singapore] PHP Warning:  Undefined array key "pencarian" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 59
+[19-Jul-2022 10:14:34 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[19-Jul-2022 17:40:09 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jul-2022 19:09:01 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[19-Jul-2022 19:47:02 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jul-2022 22:01:47 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[21-Jul-2022 22:01:48 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jul-2022 12:00:57 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jul-2022 16:21:36 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[22-Jul-2022 16:21:43 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[22-Jul-2022 16:22:46 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 133
+[22-Jul-2022 16:22:46 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[22-Jul-2022 16:22:51 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 133
+[22-Jul-2022 16:22:51 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[22-Jul-2022 16:22:54 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[22-Jul-2022 16:23:09 Asia/Singapore] PHP Warning:  Trying to access array offset on value of type null in /home/advk5287/public_html/dimas.advokesmapolnes.com/keranjang_act.php on line 104
+[23-Jul-2022 00:44:03 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jul-2022 22:56:32 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[23-Jul-2022 23:58:37 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[24-Jul-2022 01:08:38 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[24-Jul-2022 02:05:39 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[24-Jul-2022 05:26:03 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[24-Jul-2022 13:36:59 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[24-Jul-2022 13:37:03 Asia/Singapore] PHP Warning:  Undefined variable $tot_bayar in /home/advk5287/public_html/dimas.advokesmapolnes.com/login.php on line 30
+[24-Jul-2022 13:37:06 Asia/Singapore] PHP Warning:  Undefined array key "potong" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 133
+[24-Jul-2022 13:37:06 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[24-Jul-2022 13:37:08 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[24-Jul-2022 13:37:22 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[24-Jul-2022 13:38:30 Asia/Singapore] PHP Warning:  Undefined array key "list" in /home/advk5287/public_html/dimas.advokesmapolnes.com/pages/kasir.php on line 189
+[24-Jul-2022 13:38:36 Asia/Singapore] PHP Warning:  Undefined array key "pot" in /home/advk5287/public_html/dimas.advokesmapolnes.com/transaksi_act.php on line 92
+[24-Jul-2022 13:58:33 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
+[24-Jul-2022 23:01:23 Asia/Singapore] PHP Warning:  Undefined array key "nama" in /home/advk5287/public_html/dimas.advokesmapolnes.com/index.php on line 212
